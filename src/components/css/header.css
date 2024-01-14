@@ -1,0 +1,36 @@
+h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    margin-top: 0.8em;
+    font-weight: 800;
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+.header-brand {
+    width:  60vim !important;
+    height: 60vmin !important;
+    margin-top: 8em;
+    /* background-color: bisque !important; */
+  }
+  @media only screen and (max-width: 600px) {
+    .header-brand {
+        margin-top: 1em;
+        /* display: none; */
+    }
+  }
+  .brand-footer-text{
+    font-size: 17px !important;
+    width: 370px;
+  }
+  @media only screen and (max-width: 600px) {
+    .brand-footer-text {
+        width: 310px;
+    }
+  }
+  .category-btn{
+    background: none;
+  }
